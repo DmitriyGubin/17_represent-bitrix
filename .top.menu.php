@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Галерея", 
+		"/gallery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О нас", 
+		"#about-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"#services-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Прайс", 
+		"#catalog-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отшиваем", 
+		"#example-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Почему мы", 
+		"#why-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Этапы работы", 
+		"#stages-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

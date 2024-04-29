@@ -1,0 +1,216 @@
+
+.contacts .cont_title
+{
+  color: #606060;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.contacts .cont_text
+{
+  color: #1B1B1B;
+  font-size: 25px;
+}
+
+.contacts .cont_item
+{
+  width: 100%;
+  max-width: 440px;
+  padding: 0 80px;
+}
+
+.contacts .cont_item:first-child
+{
+  padding: 0 80px 0 0;
+}
+
+.contacts .cont_item:last-child
+{
+  padding: 0 0 0 80px;
+}
+
+.contacts .title
+{
+  font-size: 60px;
+}
+
+.contacts .cont_line
+{
+  display: flex;
+  margin: 100px 0 50px 0;
+}
+
+.contacts .middle
+{
+  border-left: 4px solid #D9D9D9;
+  border-right: 4px solid #D9D9D9;
+}
+
+.contacts .social
+{
+  background: #EBDEDE99;
+  padding: 30px 0;
+}
+
+.contacts .social .wrap
+{
+  display: flex;
+}
+
+.contacts .soc_line_title
+{
+  color: #1B1B1B;
+  font-size: 25px;
+}
+
+.contacts .soc_item
+{
+  margin-left: 20px;
+}
+
+.contacts .soc_line
+{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.contacts .soc_line:first-child
+{
+  margin-left: 0px;
+}
+
+.contacts #cont_map
+{
+  height: 590px;
+  background: gray;
+}
+
+.contacts #cont_map *
+{
+  transition: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************медиа-запросы*************/
+@media screen and (max-width: 1400px)
+{
+  .contacts .cont_title,
+  .contacts .soc_line_title
+  {
+    font-size: 24px;
+  }
+
+  .contacts .cont_text
+  {
+    font-size: 18px;
+  }
+
+  .contacts .cont_item
+  {
+    padding: 0 30px;
+    max-width: 340px;
+  }
+
+  .contacts .cont_item:first-child
+  {
+    padding: 0 30px 0 0;
+  }
+
+  .contacts .cont_item:last-child
+  {
+    padding: 0 0 0 30px;
+  }
+
+  .contacts .cont_line
+  {
+    margin: 30px 0;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .contacts .cont_title,
+  .contacts .soc_line_title
+  {
+    font-size: 20px;
+  }
+
+  .contacts .cont_text
+  {
+    font-size: 16px;
+  }
+
+  .contacts .cont_item
+  {
+    max-width: 100%;
+  }
+
+  .contacts .cont_line
+  {
+    margin: 20px 0;
+  }
+
+  .contacts .cont_line
+  {
+    flex-direction: column;
+  }
+
+  .contacts .middle 
+  {
+    border-top: 4px solid #D9D9D9;
+    border-bottom: 4px solid #D9D9D9;
+    border-left: none;
+    border-right: none;
+  }
+
+  .contacts .cont_item
+  {
+    padding: 10px 0 !important;
+  }
+
+  .contacts .social
+  {
+    padding: 20px 0;
+  }
+
+  .contacts .social .wrap
+  {
+    flex-direction: column;
+  }
+
+  .contacts .soc_line
+  {
+    margin: 0px;
+  }
+
+  .contacts #cont_map
+  {
+    height: 400px;
+  }
+}

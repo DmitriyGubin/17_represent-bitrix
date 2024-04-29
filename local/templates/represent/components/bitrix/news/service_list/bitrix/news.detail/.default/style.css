@@ -1,0 +1,202 @@
+.galery
+{
+  font-size: 60px;
+}
+
+.galery .gall_box
+{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.galery .gall_item
+{
+  width: calc(33.3% - 20px);
+  position: relative;
+  padding-top: 44%;
+  margin-bottom: 25px;
+}
+
+.galery .gall_item:hover
+{
+  transform: scale(1.05);
+}
+
+.galery .gall_item img
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.galery .title
+{
+  font-size: 60px;
+}
+
+.galery #more_items
+{
+  font-size: 35px;
+  font-weight: 500;
+  color: #606060;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+/***********************/
+
+.why_we .why_box
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 110px;
+}
+
+.why_we .why_item
+{
+  width: 100%;
+  max-width: 270px;
+  margin: 0 40px 20px 40px;
+}
+
+.why_we .why_text
+{
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********медиа-запросы****************/
+@media screen and (max-width: 1400px)
+{
+  .galery #more_items
+  {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .galery .gall_box
+  {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .galery #more_items
+  {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .galery .gall_item 
+  {
+    width: calc(50% - 5px);
+    margin-bottom: 10px;
+    padding-top: 64%;
+  }
+
+  .galery #more_items 
+  {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+/****************************/
+@media screen and (max-width: 1425px)
+{
+  .why_we .why_box
+  {
+    margin-top: 40px;
+  }
+
+  .why_we .why_text
+  {
+    font-size: 18px;
+  }
+
+  .why_we .why_item
+  {
+    margin: 0 40px 40px 40px;
+  }
+
+  .why_we .why_item 
+  {
+    max-width: 150px;
+  }
+
+  .why_we .why_box
+  {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .why_we .why_item
+  {
+    max-width: calc(50% - 30px);
+    margin: 0 0 50px 0;
+    padding: 0 10px;
+  }
+
+  .why_we .why_text
+  {
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    margin: 10px auto 0 auto;
+  }
+
+  .why_we .why_item img
+  {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .why_we .why_box
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why_we .why_text
+  {
+    font-size: 16px;
+  }
+
+  .why_we .why_item
+  {
+    margin: 0 0 30px 0;
+  }
+
+  .why_we .why_item
+  {
+    max-width: 100%;
+  }
+}
